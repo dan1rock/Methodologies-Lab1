@@ -1,0 +1,26 @@
+{
+  "name": "quadequation",
+  "version": "1.0.0",
+  "description": "Utility for solving quadratical equations",
+  "main": "index.js",
+  "scripts": {
+    "test": "not yet implemented"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan1rock/Methodologies-Lab1.git"
+  },
+  "keywords": [
+    "quadratic",
+    "equation",
+    "solve"
+  ],
+  "author": "Danylo Holets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dan1rock/Methodologies-Lab1/issues"
+  },
+  "homepage": "https://github.com/dan1rock/Methodologies-Lab1#readme",
+  "devDependencies": {
+  }
+}
