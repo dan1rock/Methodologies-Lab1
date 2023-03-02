@@ -2,6 +2,7 @@
   "name": "quadequation",
   "version": "1.0.0",
   "description": "Utility for solving quadratical equations",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "not yet implemented"
