@@ -1,5 +1,5 @@
 const quadEquation = (a, b, c) => {
-  console.log(`\nEquation is: (${a}) x^2 + (${b}) x + (${c}) = 0`);
+  console.log(`\nEquation is: (${a})x^2 + (${b})x + (${c}) = 0`);
   const disc = b * b - 4 * a * c;
   if (disc === 0) {
     const x = -b / (2 * a);
