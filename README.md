@@ -8,3 +8,5 @@
 >**Note** To use file mode you need to use format like this: ```1\s\0\s\0\n```
 >
 >Where ```\s``` is space and ```\n``` is newline
+
+[Revert commit](https://github.com/dan1rock/Methodologies-Lab1/commit/24004a7dc73a8f632bae7686c7704db9903a55a9)
