@@ -5,7 +5,7 @@
 2. Run ```node index.js``` to enter interactive mode
 3. Run ```node index.js <file-path>``` to enter file mode
 
->**Note** To use file mode you need to use format like this: ```1\s\0\s\0\n```
+>**Note** To use file mode you need to use format like this: ```1\s0\s0\n```
 >
 >Where ```\s``` is space and ```\n``` is newline
 
