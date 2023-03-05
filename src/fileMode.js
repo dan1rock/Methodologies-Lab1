@@ -1,7 +1,7 @@
 import { readFileSync, existsSync } from 'fs';
 import { quadEquation } from './quadEquation.js';
 
-const fileMode = path => {
+const fileMode = (path) => {
   if (!existsSync(path)) {
     console.log(`Error. File ${path} does not exist`);
     process.exit(404);
@@ -19,7 +19,7 @@ const fileMode = path => {
       process.exit(400);
     }
   }
-  params = params.map(param => Number(param));
+  params = params.map((param) => Number(param));
   if (params[0] === 0) {
     console.log('Error. a cannot be 0');
     process.exit(400);
