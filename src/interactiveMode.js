@@ -1,12 +1,7 @@
 import { createInterface } from 'readline';
 import { quadEquation } from './quadEquation.js';
 
-const rl = createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
-
-const input = async (text) => {
+const input = async (text, rl) => {
   const question = (text) => new Promise((arg) => rl.question(text, arg));
   let num = NaN;
   while (true) {
@@ -22,9 +17,14 @@ const input = async (text) => {
 };
 
 const interactiveMode = async () => {
+  const rl = createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
+
   let a = NaN;
   while (true) {
-    a = await input('a = ');
+    a = await input('a = ', rl);
     if (a === 0) {
       console.log('Error. a cannot be 0');
     } else {
@@ -32,8 +32,8 @@ const interactiveMode = async () => {
     }
   }
 
-  const b = await input('b = ');
-  const c = await input('c = ');
+  const b = await input('b = ', rl);
+  const c = await input('c = ', rl);
 
   rl.close();
   quadEquation(a, b, c);
